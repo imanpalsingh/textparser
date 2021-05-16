@@ -1,0 +1,25 @@
+﻿.upload-button{
+    padding:0.5em;
+    font-size: 1.2rem;
+    border-radius:50%;
+    border-width: 3px;
+    height:8em;
+    width:8em;
+}
+
+
+.arrange{
+    display:flex;
+    flex-direction:column
+}
+.upload-file{
+   
+    font-size:1.8em;
+    position:relative;
+    bottom: 5px;
+}
+
+.error-report{
+    position: fixed;
+    top:60px;
+}

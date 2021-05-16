@@ -1,0 +1,45 @@
+﻿.command-line {
+    border: 1px solid black;
+    grid-area: command;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    border-width: 8px;
+    border-color: #007bff;
+    display: flex;
+    position: relative;
+    height: 100%;
+    font-family: monospace;
+    background-color: black;
+}
+
+.command-text {
+    position: absolute;
+    top: 4.4em;
+    left: 6.3em;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    width:85%;
+}
+
+.command-text:focus{
+    border:none !important;
+    outline:none;
+}
+
+.cmd-des{
+    left:1em;
+    top: 1em;
+    position: absolute;
+    color: white;
+    overflow:hidden;
+}
+
+.cmd {
+    position: absolute;
+    color: white;
+    top: 4.5em;
+    left: 1em;
+}

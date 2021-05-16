@@ -1,0 +1,31 @@
+﻿.file-content-display {
+    padding: 2em 1em;
+    grid-area: content;
+    overflow-y: auto;
+    word-wrap: break-word;
+    white-space: normal
+}
+
+.content-line {
+    border: 2px solid #eee;
+    border-left: none;
+    border-right: none;
+    padding: 0.2em 1em;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.line {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+    .line .number {
+        padding: 0.3em 1em 0.3em 0;
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+    }

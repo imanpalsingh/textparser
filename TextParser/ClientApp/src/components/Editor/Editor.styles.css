@@ -1,0 +1,93 @@
+﻿.editor{
+
+    display:grid;
+    grid-template-columns: 0.18fr 0.82fr;
+    grid-template-rows: 0.75fr 0.25fr;
+    grid-template-areas:
+        "files content"
+        "files command";
+    height:calc(100vh - 75px);
+}
+
+.scroll-bar-custom {
+    overflow-y: scroll;
+    scrollbar-color: gray #007bff;
+    scrollbar-width: thin;
+}
+
+    .scroll-bar-custom::-webkit-scrollbar {
+        width: 0.5em;
+    }
+
+    .scroll-bar-custom::-webkit-scrollbar-track {
+        background-color: #007bff;
+    }
+
+    .scroll-bar-custom::-webkit-scrollbar-thumb {
+        background-color: gray;
+    }
+
+.container{
+   
+    min-width: 100%;
+    min-height: 100%;
+    margin-left:0 !important;
+}
+
+.file-heading {
+    border: 2px solid #007bff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 0.5em;
+    width: max-content;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+@media only screen and (max-width: 1230px){
+    .editor {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 0.2fr;
+        grid-template-areas:
+            "files"
+            "content"
+            "command";
+    }
+}
+
+@media only screen and (max-width: 1230px)
+{
+    .editor {
+        grid-template-columns: 1fr;
+        grid-template-rows:0.2fr 0.6fr 0.2fr;
+        grid-template-areas:
+            "files"
+            "content"
+            "command";
+    }
+
+    .command-text{
+        width: 50% !important;
+    }
+
+    .command-line{
+        border:none !important;
+    }
+
+    .container {
+        padding: 0 !important;
+    }
+    .file-content-display{
+        padding: 1em 0.5em !important;
+    }
+
+    .file-heading{
+        width:auto;
+    }
+    .files-uploaded{
+        padding-top:0.2em !important;
+    }
+}
+
+

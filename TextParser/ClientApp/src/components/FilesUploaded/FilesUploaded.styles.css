@@ -1,0 +1,59 @@
+﻿.files-uploaded {
+    padding: 2em 2em 2em 0.5em;
+    grid-area: files;
+    font-size: 0.9rem !important;
+}
+.filenames {
+    padding-top: 0.5em;
+}
+
+.selected {
+    color: #007bff;
+    border-color: #007bff !important;
+}
+
+.filename-holder {
+    border: 2px solid black;
+    width: 100%;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.3em;
+}
+
+    .filename-holder:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: white !important;
+    }
+
+.filename {
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+
+.file-uploaded {
+    margin-right: 0.5em;
+   
+}
+
+.unload-file {
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    
+}
+
+.download-link{
+    color:inherit;
+}
+
+.download-link:hover{
+    color:inherit;
+}

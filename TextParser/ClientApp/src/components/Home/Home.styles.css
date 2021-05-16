@@ -1,0 +1,20 @@
+﻿.flex-center{
+    
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+    margin-top:12vh;
+}
+
+.flex-end{
+    padding-bottom:10px;
+    text-align:center;
+    margin-bottom: 2em;
+}
+.light {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
